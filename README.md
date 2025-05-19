@@ -2,6 +2,10 @@
 
 This project follows the "Ray Tracing in One Weekend" book by Peter Shirley.
 
+My latest result (400 samples, 10 bounces):
+
+![Simple Diffuse Render](./images/diffuse_simple_400_samples_10_bounces.jpeg)
+
 ## Common commands
 
 ```
