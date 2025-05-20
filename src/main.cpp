@@ -22,8 +22,9 @@ int main(int argc, char **argv) {
 
     hittable_list world;
 
-    world.add(make_shared<sphere>(point3(0,0,-1), 0.5));
-    world.add(make_shared<sphere>(point3(0,-100.5,-1), 100));
+    world.add(make_shared<sphere>(point3(-0.2,0,-1), 0.5, color(0.8, 0.8, 0.5)));
+    world.add(make_shared<sphere>(point3(1,0,-1.5), 0.5, color(0.8, 0.5, 0.8)));
+    world.add(make_shared<sphere>(point3(0,-100.5,-1), 100, color(0.5, 0.5, 0.5)));
 
     camera cam;
 
