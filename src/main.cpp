@@ -30,7 +30,7 @@ int main(int argc, char **argv) {
 
     cam.aspect_ratio = 16.0 / 9.0;
     cam.image_width  = 400;
-    cam.samples_per_pixel = 400;
+    cam.samples_per_pixel = 200;
     cam.max_depth         = 10; // or max bounces?
 
     cam.render(world, outfile);
