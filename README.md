@@ -2,9 +2,9 @@
 
 This project follows the "Ray Tracing in One Weekend" book by Peter Shirley.
 
-My latest result (400 samples, 10 bounces):
+My latest result (100 samples, 50 bounces):
 
-![Simple Diffuse Render](./images/diffuse_lambertian_400_samples_10_bounces.jpeg)
+![Simple Diffuse Render](./images/dielectric_lambertian_metal_100_samples_50_bounces.jpeg)
 
 ## Common commands
 
